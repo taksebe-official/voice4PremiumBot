@@ -1,0 +1,12 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+target/
+.gitlab-ci.yml
+
+.mvn
+mvnw
+mvnw.cmd

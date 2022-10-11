@@ -1,0 +1,25 @@
+telegram:
+  api-url: "https://api.telegram.org/"
+  bot-name: "Your Bot Name"
+  bot-token: "Your Bot Token"
+  webhook-path: "Your Bot Webhook Path"
+server:
+  port: "5000"
+files:
+  incoming: "premium-incoming"
+  outgoing: "premium-outgoing"
+ffmpeg:
+  path: "path to ffmpeg (Linux) or ffmpeg.exe (Windows)"
+schedule:
+  cron:
+    delete-temp-files: 0 */10 * ? * *
+message:
+  start:
+    picture-file-id: "Your Picture File ID"
+    text: "🇺🇸 This bot converts a voice message into an audio file. Send him a voice message, wait for an answer and forward it to Telegram Premium user. The message must be no longer than 10 minutes\r\n\r\n🇷🇺 Этот бот преобразует голосовое сообщение в аудиофайл, чтобы его можно было отправить пользователю Telegram Premium. Отправьте в бот голосовуху и ждите ответа. Голосовое сообщение должно быть не длиннее 10 минут"
+  too-big-voice:
+    text: "🇺🇸 Voice message is too long (over 10 minutes)\r\n\r\n🇷🇺 Больше 10 минут? Серьёзно? Не, нам таких не надо, у нас сервер дымиться будет. Постарайтесь лаконичнее\r\n\r\n"
+  illegal-message:
+    text: "🇺🇸 I work only with voice messages - I will convert them into audio files. Please don't send me any other messages, I'll be lost\r\n\r\n🇷🇺 Я работаю только с голосовыми сообщениями - преобразую их в аудиофайл, чтобы Вы могли наказать мажора с премиумом. Пожалуйста, не отправляйте мне другие сообщения, я теряюсь"
+  wtf:
+    text: "🇺🇸 Don't know what happened, but it's definitely something bad. Somehow it didn't work\r\n\r\n🇷🇺 Сам не знаю, что случилось, но явно что-то плохое. Почему-то не сработало\r\n\r\n🇵🇱 O kurwa!"
