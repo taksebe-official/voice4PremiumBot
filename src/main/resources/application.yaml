@@ -15,7 +15,8 @@ schedule:
     delete-temp-files: 0 */10 * ? * *
 message:
   start:
-    picture-file-id: "Your Picture File ID"
+    picture-file-id: "your picture file ID"
+    picture-file-path: "your picture file path in resources"
     text: "🇺🇸 This bot converts a voice message into an audio file. Send him a voice message, wait for an answer and forward it to Telegram Premium user. The message must be no longer than 10 minutes\r\n\r\n🇷🇺 Этот бот преобразует голосовое сообщение в аудиофайл, чтобы его можно было отправить пользователю Telegram Premium. Отправьте в бот голосовуху и ждите ответа. Голосовое сообщение должно быть не длиннее 10 минут"
   too-big-voice:
     text: "🇺🇸 Voice message is too long (over 10 minutes)\r\n\r\n🇷🇺 Больше 10 минут? Серьёзно? Не, нам таких не надо, у нас сервер дымиться будет. Постарайтесь лаконичнее\r\n\r\n"
