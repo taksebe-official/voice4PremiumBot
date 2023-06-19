@@ -126,7 +126,8 @@ public class TelegramApiClient {
 
         try {
             restTemplate.exchange(
-                    MessageFormat.format("{0}bot{1}/sendPhoto?chat_id={2}", URL, botToken, chatId),
+                    MessageFormat.format("{0}bot{1}/sendPhoto?chat_id={2}&caption={3}",
+                            URL, botToken, chatId, this.startMessageText),
                     HttpMethod.POST,
                     requestEntity,
                     String.class);
